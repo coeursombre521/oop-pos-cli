@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProdusAbstract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ProdusAbstract xsi:type="Produs">
+        <PosId>0</PosId>
+        <PosNume>a</PosNume>
+        <PosCodIntern>a</PosCodIntern>
+        <PosPret>10</PosPret>
+        <ProducatorProdus>a</ProducatorProdus>
+        <CategorieProdus>a</CategorieProdus>
+    </ProdusAbstract>
+    <ProdusAbstract xsi:type="Serviciu">
+        <PosId>1</PosId>
+        <PosNume>b</PosNume>
+        <PosCodIntern>b</PosCodIntern>
+        <PosPret>20</PosPret>
+    </ProdusAbstract>
+    <ProdusAbstract xsi:type="Pachet">
+        <PosId>2</PosId>
+        <PosNume>x</PosNume>
+        <PosCodIntern>x</PosCodIntern>
+        <PosPret>70</PosPret>
+        <Packageables>
+            <IPackageable AssemblyQualifiedName="entitati.Produs, entitati, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <ProdusParticularizat>
+                    <PosId>3</PosId>
+                    <PosNume>m</PosNume>
+                    <PosCodIntern>m</PosCodIntern>
+                    <PosPret>30</PosPret>
+                    <ProducatorProdus>m</ProducatorProdus>
+                    <CategorieProdus>m</CategorieProdus>
+                </ProdusParticularizat>
+            </IPackageable>
+            <IPackageable AssemblyQualifiedName="entitati.Serviciu, entitati, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <ServiciuParticularizat>
+                    <PosId>4</PosId>
+                    <PosNume>n</PosNume>
+                    <PosCodIntern>n</PosCodIntern>
+                    <PosPret>40</PosPret>
+                </ServiciuParticularizat>
+            </IPackageable>
+        </Packageables>
+        <PachetMaximumProduse>1</PachetMaximumProduse>
+        <PachetMaximumServicii>1</PachetMaximumServicii>
+    </ProdusAbstract>
+    <ProdusAbstract xsi:type="Produs">
+        <PosId>3</PosId>
+        <PosNume>m</PosNume>
+        <PosCodIntern>m</PosCodIntern>
+        <PosPret>30</PosPret>
+        <ProducatorProdus>m</ProducatorProdus>
+        <CategorieProdus>m</CategorieProdus>
+    </ProdusAbstract>
+    <ProdusAbstract xsi:type="Serviciu">
+        <PosId>4</PosId>
+        <PosNume>n</PosNume>
+        <PosCodIntern>n</PosCodIntern>
+        <PosPret>40</PosPret>
+    </ProdusAbstract>
+</ArrayOfProdusAbstract>
